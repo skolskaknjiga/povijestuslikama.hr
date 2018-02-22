@@ -3044,7 +3044,11 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 .slider-parallax .slider-parallax-inner {
 	position: fixed;
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
+}
+.slider-parallax .slider-parallax-inner,
+.slider-parallax .slider-parallax-inner .full-screen{
+	height: 100%!important;
 }
 
 .device-touch .slider-parallax .slider-parallax-inner { position: relative; }
@@ -3151,7 +3155,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	overflow: hidden;
 }
 
-.full-screen .swiper_wrapper { height: auto; }
+.full-screen .swiper_wrapper { height: 100%!important; }
 
 .swiper_wrapper .swiper-container {
 	position: relative;
