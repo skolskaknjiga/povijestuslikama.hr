@@ -157,6 +157,14 @@ img { max-width: 100%; }
 
 iframe { border: none !important; }
 
+.impressum{
+	color: rgba(255,255,255,0.25)!important;
+	border: none;
+	font-size: 14px!important;
+	padding: 0px!important;
+	background: none!important;
+}
+
 
 .modal-dialog {
   width: 100%;
@@ -166,8 +174,7 @@ iframe { border: none !important; }
 }
 
 .modal-content {
-  background-image: url("../images/home/9_1.jpg");
-  background-attachment: fixed;
+  background-color: rgba(0,0,0, 0.3);
   height: auto;
   min-height: 100%;
   border-radius: 0;
@@ -606,6 +613,30 @@ span.middot {
 	height: 1100px;
 	padding: 0px;
 }
+
+.texts_video_mala{
+	height: 1100px;
+	padding: 0px;
+}
+
+@media (max-width: 1300px) {
+	.texts_video{
+		height: 1900px;
+		padding: 0px;
+	}
+
+	.texts_video_mala{
+		height: 800px;
+		padding: 0px;
+	}
+
+}
+
+@media (max-width: 300px) {
+
+}
+
+
 .one-text{
 	height:400px;
 }
@@ -3047,7 +3078,7 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	/*height: 100%;*/
 }
 .slider-parallax .slider-parallax-inner,
-.slider-parallax .slider-parallax-inner .full-screen{
+.slider-parallax .slider-parallax-inner {
 	height: 100%!important;
 }
 
@@ -3154,8 +3185,17 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	height: 500px;
 	overflow: hidden;
 }
+@media (min-width: 920px) {
+	.full-screen .swiper_wrapper {
+		height: 100% !important;
+	}
+}
 
-.full-screen .swiper_wrapper { height: 100%!important; }
+@media (max-width: 919px) {
+	.full-screen .swiper_wrapper {
+		height: auto !important;
+	}
+}
 
 .swiper_wrapper .swiper-container {
 	position: relative;
