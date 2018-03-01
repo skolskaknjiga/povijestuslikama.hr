@@ -11558,7 +11558,6 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .emphasis-title h1,
 .emphasis-title h2 {
 	font-size: 64px;
-	letter-spacing: -2px;
 }
 
 .emphasis-title h1 strong,
