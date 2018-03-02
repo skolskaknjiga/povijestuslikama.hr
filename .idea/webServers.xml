@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="04dc6633-4713-45e2-8bf5-990621deec03" name="ftp.povijestuslikama.eu" url="http://povijestuslikama.eu">
+        <fileTransfer host="ftp.povijestuslikama.eu" port="22" privateKey="C:\Users\zrajic\.ssh\povijestuslikama_zr_open_ssh" rootFolder="/home/povijestuslikama/public_html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

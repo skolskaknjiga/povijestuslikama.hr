@@ -591,7 +591,6 @@ span.middot {
 	Sections
 -----------------------------------------------------------------*/
 
-
 .section {
 	position: relative;
 	margin: 60px 0;
@@ -609,27 +608,58 @@ span.middot {
 	height: 800px;
 	padding: 0px;
 }
-.texts_video{
-	height: 1100px;
-	padding: 0px;
+
+.margin-bottom-60{
+	margin-bottom: 60px;
 }
 
-.texts_video_mala{
-	height: 1100px;
-	padding: 0px;
+.video-naslov-h2{
+	text-align:center;
+	margin-bottom: 30px;
+	color: #ffffff;
+	font-size: 64px;
+	font-weight: 400;
 }
 
-@media (max-width: 1300px) {
-	.texts_video{
-		height: 1900px;
-		padding: 0px;
+@media (min-width: 1500px) {
+	.custom-height{
+		min-height: 1400px;
 	}
+}
 
-	.texts_video_mala{
-		height: 800px;
-		padding: 0px;
+@media (max-width: 1500px) and (min-width: 992px) {
+	.custom-height{
+		min-height: 1000px;
 	}
+}
 
+@media (max-width: 991px) and (min-width: 800px) {
+	.custom-height{
+		min-height: 1450px;
+	}
+}
+
+@media (max-width: 799px) and (min-width: 700px) {
+	.custom-height{
+		min-height: 1200px;
+	}
+}
+@media (max-width: 699px) and (min-width: 400px) {
+	.custom-height{
+		min-height: 1000px;
+	}
+	.video-naslov-h2{
+		font-size: 42px;
+	}
+}
+
+@media (max-width: 399px) and (min-width: 0px) {
+	.custom-height{
+		min-height: 850px;
+	}
+	.video-naslov-h2{
+		font-size: 42px;
+	}
 }
 
 @media (max-width: 300px) {
@@ -1319,6 +1349,19 @@ body.stretched #header.full-header .container {
 /* ----------------------------------------------------------------
 	Header Right Area
 -----------------------------------------------------------------*/
+
+.naslov-h2 {
+	margin-bottom: 0px!important;
+	font-size: 54px;
+	font-weight: 400;
+}
+
+@media (max-width: 728px) {
+	.naslov-h2 {
+		font-size: 42px;
+	}
+}
+
 
 
 .header-extras {
